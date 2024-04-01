@@ -25,7 +25,7 @@ android {
 
     flavorDimensions "one"
 
-    compileSdkVersion 33
+    compileSdkVersion 30
 
 
     compileOptions {
@@ -45,11 +45,11 @@ android {
 
     defaultConfig {
         applicationId "net.programmierecke.radiodroid2"
-        minSdkVersion 16
-        targetSdkVersion 33
+        minSdkVersion 23
+        targetSdkVersion 30
 
-        versionCode 96
-        versionName "0.86"
+        versionCode 1
+        versionName "1.0"
 
         multiDexEnabled true
         vectorDrawables.useSupportLibrary = true
@@ -81,7 +81,6 @@ android {
 
         multiDexKeepProguard file('multidex-config.pro')
 
-        vectorDrawables.useSupportLibrary = true
     }
 
     testOptions {
